@@ -13,14 +13,16 @@
 L^{&#39;}_{R}=\mu \frac{h}{w}\\ 
 C^{&#39;}_{R}=\varepsilon \frac{w}{h}
 \end{matrix}\right.
-\]</span> 在终端短路或者开路的边界条件下，当传输线发生谐振时应满足： <span class="math display">\[\beta _{a}L=\beta _{a}\left ( Nd \right )=m\pi \left ( m=0,1,2,\cdots  \right )\]</span> 根据周期性传输线理论，其色散关系式为： <span class="math display">\[\cos \beta _{a}d=1-\frac{1}{2}\left ( \frac{\omega ^{2}-\omega _{MZR}^{2}}{\frac{1}{L_{R}C_{R}}} \right )\]</span> 其中 <span class="math display">\[\omega _{MZR}=\frac{1}{\sqrt{L_{R}C_{R}}}   L_{R}=L_{R}^{&#39;}d,C_{R}=C_{R}^{&#39;}d\]</span> 由于当传输线终端开路时，其输入阻抗表示为： Z_in^open=-jZ_c cot(β_a L)≈-jZ_c 1/(β_a L) (β_a→0)=-j√(Z^‘/Y^’ ) (1/(-j√(Z^‘Y^’ ))) 1/L=1/NY 当传输线终端短路时，其输入阻抗可表示为： <span class="math display">\[
-Z_{in}^{open}=-jZ_{c}\cot \left ( \beta _{a}L \right )\approx -jZ_{c}\frac{1}{\beta _{a}L}\left ( \beta _{a}\rightarrow 0 \right )=-j\sqrt{\frac{Z^{&#39;}}{Y^{&#39;}}}\left ( \frac{1}{-j\sqrt{Z^{&#39;}Y^{&#39;}}} \right )\frac{1}{l}=\frac{1}{NY}
+\]</span> 在终端短路或者开路的边界条件下，当传输线发生谐振时应满足： <span class="math display">\[\beta _{a}L=\beta _{a}\left ( Nd \right )=m\pi \left ( m=0,1,2,\cdots  \right )\]</span> 根据周期性传输线理论，其色散关系式为： <span class="math display">\[\cos \beta _{a}d=1-\frac{1}{2}\left ( \frac{\omega ^{2}-\omega _{MZR}^{2}}{\frac{1}{L_{R}C_{R}}} \right )\]</span> 其中 <span class="math display">\[\omega _{MZR}=\frac{1}{\sqrt{L_{R}C_{R}}}   L_{R}=L_{R}^{&#39;}d,C_{R}=C_{R}^{&#39;}d\]</span> 由于当传输线终端开路时，其输入阻抗表示为： <span class="math display">\[
+Z_{in}^{open}=-jZ_{c}\cot \left ( \beta _{a}L \right )\approx -jZ_{c}\frac{1}{\beta _{a}L}\left ( \beta _{a}\rightarrow 0 \right )=-j\sqrt{\frac{Z^{&#39;}}{Y^{&#39;}}}\left ( \frac{1}{-j\sqrt{Z^{&#39;}Y^{&#39;}}} \right )\frac{1}{L}=\frac{1}{NY}
+\]</span> 当传输线终端短路时，其输入阻抗可表示为： <span class="math display">\[
+Z_{in}^{short}=-jZ_{c}\tan  \left ( \beta _{a}L \right )\approx -jZ_{c}\beta _{a}L\left ( \beta _{a}\rightarrow 0 \right )=-j\sqrt{\frac{Z^{&#39;}}{Y^{&#39;}}}\left ( j\sqrt{Z^{&#39;}Y^{&#39;}} \right )L=NZ
 \]</span> 因此对于周期性平行板传输线而言，其所对应的终端短路和开路时的输入阻抗可表示为： <span class="math display">\[
 \left\{\begin{matrix}
 Z_{in}^{open}=\frac{1}{j\omega NC_{R}}\\ 
 Z_{in}^{short}=\frac{N}{j\omega C_{L}}+j\omega NL_{R}
 \end{matrix}\right.
-\]</span> 为使得周期性平行板传输线工作在谐振频率f_MZR，传输线终端必须短路。此时β_a等于0，平行板传输线上电流相位处处相同。</p>
+\]</span> 为使得周期性平行板传输线工作在谐振频率<span class="math inline">\(f_{MZR}\)</span>，传输线终端必须短路。此时<span class="math inline">\(β_{a}\)</span>等于0，平行板传输线上电流相位处处相同。</p>
 <h2 id="huygens-metasurface-antenna">Huygen’s Metasurface Antenna</h2>
 <p>香港城市大学目前正在研究的是一种被称为Huygen’s Metasurface Antenna的平面超材料天线，通过周期性排布的天线单元来改变入射电磁场的反射方向，这种天线的基本原理是通过周期性结构改变天线的进场电磁波分布，从而实现特殊的电磁传播。目前，通过仿真和实验验证分析了这种天线结构可以实现电磁波信号100%的沿入射方向进行反射。同时，通过调整周期性天线单元的大小以及相互之间的距离，这种天线还可以实现任意角度的电磁反射，相当于在电磁波入射点将电磁能量全部吸收，然后在传输线上传输一定地距离，然后在全部发射。这种工作模式下，天线的工作效率同样可以达到100%。 在Huygen’s Metasurface Antenna的基础上，香港城市大学的教授还研制了Huygen’s box，这是一种立体结构的盒子，同样是利用周期性的馈电单元来实现盒子内得到任意分布的电磁场结构，而不受场外电磁场分布的影响。</p>
 <h1 id="介质谐振器天线">介质谐振器天线</h1>
